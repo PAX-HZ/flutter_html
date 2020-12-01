@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:math';
 
 import 'package:chewie/chewie.dart';
-import 'package:chewie_audio/chewie_audio.dart';
+// import 'package:chewie_audio/chewie_audio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
