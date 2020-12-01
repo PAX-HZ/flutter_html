@@ -210,17 +210,17 @@ class AudioContentElement extends ReplacedElement {
   Widget toWidget(RenderContext context) {
     return Container(
       width: context.style.width ?? 300,
-      child: ChewieAudio(
-        controller: ChewieAudioController(
-          videoPlayerController: VideoPlayerController.network(
-            src.first ?? "",
-          ),
-          autoPlay: autoplay,
-          looping: loop,
-          showControls: showControls,
-          autoInitialize: true,
-        ),
-      ),
+//       child: ChewieAudio(
+//         controller: ChewieAudioController(
+//           videoPlayerController: VideoPlayerController.network(
+//             src.first ?? "",
+//           ),
+//           autoPlay: autoplay,
+//           looping: loop,
+//           showControls: showControls,
+//           autoInitialize: true,
+//         ),
+//       ),
     );
   }
 }
