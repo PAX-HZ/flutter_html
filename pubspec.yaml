@@ -16,14 +16,20 @@ dependencies:
   css_colors: ^1.0.2
 
   # Plugins for rendering the <video> tag.
-  video_player: ^1.0.1
-  chewie: ^0.12.0
+  video_player:
+    git:
+      url: https://github.com/PAX-HZ/plugins.git
+      ref: caching
+      path: packages/video_player/video_player/
+  chewie: 
+    git:
+      url: https://github.com/PAX-HZ/chewie.git
 
   # Plugin for rendering the <iframe> tag.
   webview_flutter: ^1.0.0
 
   # Plugins for rendering the <audio> tag.
-  chewie_audio: ^1.1.1
+#   chewie_audio: ^1.1.1
 
   # Plugins for rendering the <svg> tag.
   flutter_svg: ^0.19.0
